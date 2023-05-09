@@ -8,75 +8,477 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Huerta Zuculenta</title>
-    <link rel="stylesheet" href="style.css">
-    </head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
     <!--SECCION BARRA DE NAVEGACION-->
-    <header>
-    <section>
-     <div>
-     <nav class="barra">
-        <ul>
-            <button class="botones">inicio</button>
-            <button class="botones">¿Quienes Somos?</button>
-            <button class="botones">Huerta</button>
-            <button class="botones">plantas hornamentales</button>
-            <button class="botones">articulos utiles</button>
-            <button class="botones">contacto</button>
-        </ul>
-    </div>
-    </nav>
-    </section>
-    <!-- seccion quienes somos -->
-    <section class="quienessomos">
+<header>
+    <section class="navbar">
+         <nav id="navbarhuerta"class="navbar bg-light px-3 mb-3">       
+            <a class="navbar-brand" href="#scrollspyinicio">
+            <img src="assets/logo.png" alt="logo huerta">
+              Bienvenidos a Huerta Zuculenta</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyquienessomos">¿Quienes somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyhuerta">Huerta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspytienda">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspycontacto">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+ </section>
+</header>
+    <!-- seccion CAROUSEL -->
+  <section class="carousel">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
     <div>
-        <h1>Bienvenidos a Huerta Zuculenta</h1>
-        <h3>Y el maravilloso mundo de las plantas!</h3>
-    <div>
-        <img src="assets\imageninicio.jpg" alt="persona sosteniendo acelgas cosechadas" class="imagenacelga">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img  class="imgcar" src="assets/carousel1.jpg" class="d-block w-100" alt="carousel1">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel2.jpg" class="d-block w-100" alt="carousel2">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel3.jpg" class="d-block w-100" alt="carousel3">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel4.jpg" class="d-block w-100" alt="carousel4">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel5.jpg" class="d-block w-100" alt="carousel5">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel6.jpg" class="d-block w-100" alt="carousel6">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel7.jpg" class="d-block w-100" alt="carousel7">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel8.jpg" class="d-block w-100" alt="carousel8">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel9.jpg" class="d-block w-100" alt="carousel9">
+              </div>
+              <div class="carousel-item">
+                <img  class="imgcar" src="assets/carousel10.jpg" class="d-block w-100" alt="carousel10">
+              </div>
+            </div>
+          </div>
     </div>
-        <div class="parrafo">
-            <p>Tener una huerta en casa nos permite cultivar alimentos frescos y saludables, reducir
-            los gastos a la hora de hacer las compras, contribuir con el cuidado del medio ambiente.
-            y divertirnos metiendo la mano en la tierra con toda la familia.</p>
-            <p>Desde que nací tengo huerta en casa, tengo el recuerdo de levantarme los fines de semana con el ruido de la pala y mi papá trabajando en la huerta, abrir las ventanas y encontrarme con él, quien, con mucho amor, prolijidad y dedicación, se pasaba horas del fin de semana poniendo las manos en la tierra. Él nos transmitió a mí y mis hermanos el amor por la naturaleza.
+  </section><br>
+  <!-- seccion QUIENES SOMOS -->
+  <section class="quienessomos">
+    <div>
+      <h1 id="scrollspyquienessomos"  class="titulo"> ¿Quienes Somos?</h1><br><br>
+        <p class="parrafoprincipal">Tener una huerta en casa nos permite cultivar alimentos frescos y saludables, reducir
+        los gastos a la hora de hacer las compras, contribuir con el cuidado del medio ambiente.
+        y divertirnos metiendo la mano en la tierra con toda la familia.</p>
+        <p class="parrafoprincipal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde eligendi in? Adipisci qui minima ut nemo amet illo delectus, 
+          ipsa autem excepturi dolores veniam, officiis quasi cum fugiat saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde eligendi in? Adipisci qui minima ut nemo amet illo delectus, 
+          ipsa autem excepturi dolores veniam, officiis quasi cum fugiat saepe!</p>
+          <p class="parrafoprincipal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde eligendi in? Adipisci qui minima ut nemo amet illo delectus, 
+            ipsa autem excepturi dolores veniam, officiis quasi cum fugiat saepe!</p>
+        <img src="assets/portada1.jpg" alt="huerta escalonada" class="portada">  
+    </div>
+  </section>
+    <!--SECCION HUERTA-->
+    <h2 id="scrollspyhuerta" class="titulo">Huerta</h2>
+  <section class="huerta">
+    <div class="container">
+      <div class="carouselh">
+        <!-- Contenido del primer carrusel -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 
-            Cuando terminé el colegio, decidí estudiar Ing. Agronómica y ahí empecé a interiorizarme un poquito más en el tema. De a poco fui tomando noción y dándome cuenta lo afortunados que éramos: Poder tener verduras frescas, libres de agroquímicos y llevarlos de la huerta a la mesa es algo invaluable.
-            
-            Con la ayuda de familiares y amigos, decidí emprender: en abril del 2015 nació La Juanita en Buenos Aires, Argentina, con el fin de fomentar las huertas en casas.
-            
-            Siempre con el sueño de que todas las familias puedan tener una huerta en casa para poder cultivar sus propios alimentos y poder tener verduras frescas todos los días. Ese sueño iba tomando forma, todo lo que iba aprendiendo lo pude poner en práctica y empecé a compartirlo.
-            
-            “Más huertas más vida”.
-            Y así lo creemos, porque cada vez que armamos una huerta nueva, o cada vez que damos un taller para personas que quieren interiorizarse en el tema de las huertas, sabemos que estamos poniendo nuestro granito de arena para mejorar el mundo y que cada vez seamos más los que disfrutemos de algo tan simple y a la vez saludable como sembrar, cuidar y luego cosechar sus propios alimentos.
-            
-             Somos seres naturales y siempre volvemos al lugar donde amamos la vida.
-            
-            Que bueno tenerte por acá y te sumes a esta experiencia.</p>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/tiposdehuerta.jpeg" class="d-block w-100" alt="tipos de huerta">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/huertacajones.jpeg" class="d-block w-100" alt="huerta en cajones">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Huerta en cajones</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/huertadirecta.jpeg" class="d-block w-100" alt="huerta directa">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>huerta directa</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/huertamacetas.jpeg" class="d-block w-100" alt="huerta en macetas">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Huerta en macetas</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-    </div>
-</section>
-    <!--SECCION PLANTAS HORNAMENTALES DETALLADAS EN UNA LISTA-->
-    <section class="fondo">
-    <div class="plantas">
-        <ul>
-            <li>lazos  de amor</li>
-                <ul class="tipos">
-                    <li>Chlorophytum comosum Variegatum</li>
-                    <li>Chlorophytum comosum Pictoratum</li>
-                    <li>Chlorophytum comosum Vittatum</li>
-                </ul>
-            <li>Cactus</li>
-                <ul class="tipos">
-                    <li>caquitas de gato</li>
-                    <li>Ferocactus</li>
-                    <li>Lophophora diffusa</li>
-                </ul>
-        </ul>
-    </div> 
-    </section>
-       <!--esto es un formulario  -->
+      </div>
+      <div class="carouselh">
+        <!-- Contenido del segundo carrusel -->
+        <div id="carouselExampleCaptions2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="10" aria-label="Slide 11"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="11" aria-label="Slide 12"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/calendario.jpeg" class="d-block w-100" alt="calendario">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/01-enero.jpg" class="d-block w-100" alt="enero">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>ENERO</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/02-febrero.jpg" class="d-block w-100" alt="febrero">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>febrero</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/03-marzo.jpg" class="d-block w-100" alt="marzo">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Marzo</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/04-abril.jpg" class="d-block w-100" alt="abril">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>abril</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/05-mayo.jpg" class="d-block w-100" alt="mayo">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>mayo</h5>   
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/06-junio.jpg" class="d-block w-100" alt="junio">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>junio</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/07-julio.jpg" class="d-block w-100" alt="julio">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>julio</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/08-agosto.jpg" class="d-block w-100" alt="agosto">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>agosto</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/09-septiembre.jpg" class="d-block w-100" alt="septiembre">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>septiembre</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/10-octubre.jpg" class="d-block w-100" alt="octubre">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>octubre</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/11-noviembre.jpg" class="d-block w-100" alt="noviembre">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>noviembre</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/12-diciembre.jpg" class="d-block w-100" alt="diciembre">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>diciembre</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="carouselh">
+        <!-- Contenido del tercer carrusel -->
+        <div id="carouselExampleCaptions3" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/aromaticas.jpeg" class="d-block w-100" alt="aromaticas">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/calendula.jpg" class="d-block w-100" alt="calendula">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>calendula</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/capuchina.jpg" class="d-block w-100" alt="capuchina">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/pensamiento.jpg" class="d-block w-100" alt="pensamiento">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/lavanda.jpg" class="d-block w-100" alt="lavanda">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/milenrama.jpg" class="d-block w-100" alt="milenrama">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/hisopo.jpg" class="d-block w-100" alt="hisopo">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/borraja2.jpg" class="d-block w-100" alt="borraja2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/albahaca1.jpg" class="d-block w-100" alt="albahaca1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/salvia.jpg" class="d-block w-100" alt="salvia">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/menta.jpg" class="d-block w-100" alt="menta">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>    
+</section><br>   
+          <!--SECCION CARRITO DE COMPRAS-->           
+<section class="carrito"> 
+        <h4 id="scrollspytienda">Tienda</h4>
+        <h5>plantas hornamentales</h5>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja1.jpg" class="card-img-top" alt="caja1">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja2.jpg" class="card-img-top" alt="caja2">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja3.jpg" class="card-img-top" alt="caja3">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja1.jpg" class="card-img-top" alt="caja1">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja2.jpg" class="card-img-top" alt="caja2">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja3.jpg" class="card-img-top" alt="caja3">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja1.jpg" class="card-img-top" alt="caja1">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja2.jpg" class="card-img-top" alt="caja2">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/caja3.jpg" class="card-img-top" alt="caja3">
+            <div class="card-body">
+              <h5 class="card-title">nombre producto</h5>
+              <p class="card-text">detalle producto</p>
+              <h4>precio</h4>
+              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</section><br>
+       <!--SECCION FORMULARIO -->
     <section class="form">
+        <h4 id="scrollspycomentario">Comentarios</h4>
         <form action="" method="get">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre"><br>
@@ -84,29 +486,23 @@
             <input type="email" id="email" name="email"><br>
             <label for="telefono">ingresar tel:</label>
             <input type="phone" id="telefono" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/><br>
-            <h5>ingrese su comentario</h5>
-            <textarea name="comentario" rows="10" cols="30"></textarea><br>
+            <textarea name="comentario" rows="5" cols="30"></textarea><br>
             <input type="submit" value="Enviar">
         </form> 
     </section>
-        <!-- seccion caja -->
-        <section>
-            <div class="alineado">
-                <div class="caja1">caja 1aghasjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
-                <div class="caja2">caja 2</div>
-                <div class="caja3">caja 3</div>
-                <div class="caja4">caja 4</div>
-                <div class="caja5">caja 5</div>
-                <div class="caja6">caja 6</div>
-            </div>
-        </section><br>
         <!-- SECCION CONTACTO -->
-        <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank">Instagram de huerta zuculenta</a>
-</header>
-
-    <footer>
-        derechos de autor
-    </footer>
-        
+    <section class="contacto">
+        <h4 id="scrollspycontacto">Datos de contacto contacto</h4><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-heart" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.76 2.76 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124c.146.277.329.556.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442c.22-.28.403-.56.55-.836L15 11.105V5.383l-3.002 1.801a2.76 2.76 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1H2Zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+        </svg>
+        <a href="zulmacris1995@gmail.com">email de contacto</a><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg>
+        <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank">Huerta Zuculenta</a>
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>   
 </body>
 </html>
