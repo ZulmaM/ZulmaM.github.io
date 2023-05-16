@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
     <!--SECCION BARRA DE NAVEGACION-->
-<header>
     <section class="navbar">
          <nav id="navbarhuerta"class="navbar bg-light px-3 mb-3">       
             <a class="navbar-brand" href="#scrollspyinicio">
@@ -34,8 +33,9 @@
             </ul>
           </nav>
  </section>
-</header>
+
     <!-- seccion CAROUSEL -->
+  <header>    
   <section class="carousel">
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
     <div>
@@ -74,7 +74,9 @@
             </div>
           </div>
     </div>
-  </section><br>
+  </section>
+  </header><br>
+
   <!-- seccion QUIENES SOMOS -->
   <section class="quienessomos">
     <div>
@@ -86,12 +88,14 @@
           ipsa autem excepturi dolores veniam, officiis quasi cum fugiat saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde eligendi in? Adipisci qui minima ut nemo amet illo delectus, 
           ipsa autem excepturi dolores veniam, officiis quasi cum fugiat saepe!</p>
           <p class="parrafoprincipal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde eligendi in? Adipisci qui minima ut nemo amet illo delectus, 
-            ipsa autem excepturi dolores veniam, officiis quasi cum fugiat saepe!</p>
+            ipsa autem excepturi dolores veniam, officiis quasi cum fugiat saepe!</p><br>
         <img src="assets/portada1.jpg" alt="huerta escalonada" class="portada">  
     </div>
-  </section>
+  </section><br>
+
     <!--SECCION HUERTA-->
     <h2 id="scrollspyhuerta" class="titulo">Huerta</h2>
+
   <section class="huerta">
     <div class="container">
       <div class="carouselh">
@@ -102,7 +106,6 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -365,118 +368,83 @@
         </div>
       </div>
     </div>    
-</section><br>   
-          <!--SECCION CARRITO DE COMPRAS-->           
-<section class="carrito"> 
-        <h4 id="scrollspytienda">Tienda</h4>
-        <h5>plantas hornamentales</h5>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja1.jpg" class="card-img-top" alt="caja1">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja2.jpg" class="card-img-top" alt="caja2">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja3.jpg" class="card-img-top" alt="caja3">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
-        </div>
-      </div><br>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja1.jpg" class="card-img-top" alt="caja1">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja2.jpg" class="card-img-top" alt="caja2">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja3.jpg" class="card-img-top" alt="caja3">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
+  </section><br><br><br><br><br><br><br><br>
+          <!--SECCION CARRITO DE COMPRAS--> 
+          <h2 id="scrollspytienda" class="titulo">Tienda</h2> 
+<section class="tienda">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/milenrama.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PRODUCTO</h5>
+          <p class="card-text">BASE  BLABLABLABLABLA <BR>
+          </p>
+          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank" class="btn btn-outline-danger">COMPRAR</a>
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja1.jpg" class="card-img-top" alt="caja1">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja2.jpg" class="card-img-top" alt="caja2">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/caja3.jpg" class="card-img-top" alt="caja3">
-            <div class="card-body">
-              <h5 class="card-title">nombre producto</h5>
-              <p class="card-text">detalle producto</p>
-              <h4>precio</h4>
-              <a href="https://www.instagram.com/huerta_zuculenta/" class="btn btn-primary">consultar</a>
-            </div>
-          </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/milenrama.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PRODUCTO</h5>
+          <p class="card-text">BASE  BLABLABLABLABLA <BR>
+          </p>
+          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank" class="btn btn-outline-danger">COMPRAR</a>
         </div>
       </div>
-</section><br>
-       <!--SECCION FORMULARIO -->
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/milenrama.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PRODUCTO</h5>
+          <p class="card-text">BASE  BLABLABLABLABLA <BR>
+          </p>
+          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank" class="btn btn-outline-danger">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/milenrama.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PRODUCTO</h5>
+          <p class="card-text">BASE  BLABLABLABLABLA <BR>
+          </p>
+          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank" class="btn btn-outline-danger">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/milenrama.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PRODUCTO</h5>
+          <p class="card-text">BASE  BLABLABLABLABLA <BR>
+          </p>
+          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank" class="btn btn-outline-danger">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/milenrama.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PRODUCTO</h5>
+          <p class="card-text">BASE  BLABLABLABLABLA <BR>
+          </p>
+          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank" class="btn btn-outline-danger">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>         
+<br>  
+  <!--SECCION FORMULARIO -->
     <section class="form">
         <h4 id="scrollspycomentario">Comentarios</h4>
         <form action="" method="get">
