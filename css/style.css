@@ -6,11 +6,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+/** ESTILOS SECCIONES CONECTADAS POR**/
 /** ESTILOS HEADER**/
 .headerbienvenida{
   display: flex;
   background-image:url(/assets/fondoheader.png);
-  height: 180px;
+  height: 165px;
   flex-direction: column;
 }
 /** ESTILOS h1 header**/
@@ -21,21 +22,105 @@
   color: #540a3e;  
   text-shadow: 10px 10px 10px #fae6f4, 5px 5px 5px #cfacc5;
 }
+.resaltado{
+  background-color: #fae6f4;
+  color: #540a3e;
+}
 
-/**estilos barra denavegacion**/
+/**estilos barra de navegacion**/
 .barranav{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-.navbar {
-    position: static;
-    top: 0;
-    left: 0;
+.navbar {  
     width: 100%;
-    background-color: #f7d5c4!important;  
+    background-color: #f2edf0!important; 
+    height: 50px; 
 }
+.titulosnav{
+  text-align: center;
+  padding: 0px 6px 0px 11px;
+  color: #3d062c;
+}
+/**estilos iconos de la barra de navegacion**/
+.icon-container {
+  background-color: #f2edf0!important;
+  display: flex;
+  position: relative;
+  top: 0px; 
+  right:0px;
+  bottom:0px;
+  left: 550px;
+  list-style: none;
+}
+.icon-container img {
+  height: 33px;
+  width: 33px;
+}
+.icon-container a{
+  margin-right: 15px
+}
+
+   /**estilos seccion FOOTER**/
+.footerclass {    
+  background-color: #f2edf0; 
+  width: 100%;;
+  height: 200px;
+}
+   /**estilos seccion lista del footer**/
+.listfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.logoig{
+  width: 200px;
+  height: 200px;
+}
+.icon-containerfooter {
+  background-color: #f2edf0!important;
+  display: flex;
+  position: relative;
+  top: 0px; 
+  right:0px;
+  bottom:0px;
+  left: 120px;
+  list-style: none;
+}
+.icon-containerfooter img {
+  height: 33px;
+  width: 33px;
+}
+.icon-containerfooter a{
+  margin-right: 15px;
+}
+.titulosnavfooter{
+  text-align: center;
+  font-size: 25px;
+  padding: 0px 6px 0px 11px;
+  color: #3d062c;
+}
+
+
+
+
+
+
+
+
+
+   /**estilos seccion FORMULARIO**/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**estilos carousel inicio**/
 .carousel {
@@ -104,27 +189,7 @@
     font-size: 40px;
     color: #1c4e1b;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #f7d5c4!important;
+    background-color: #cfacc5!important;
 }
-   /**estilos seccion FOOTER**/
-   .footerclass {
-    width: 100%;
-    background-image: url('ruta-de-la-imagen');
-    background-size: cover;
-    background-position: center;
-    background-color:#e9cfc2!important ;
-    height: 500px;
-  }
-   /**estilos seccion lista del footer**/
-.listfooter{
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-.logoig{
-  width: 200px;
-  height: 200px;
-}
-   /**estilos seccion FORMULARIO**/
- /**estilos seccion  CONTACTO**
+
   

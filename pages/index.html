@@ -1,44 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto:ital,wght@1,300&family=Sono&family=Source+Serif+Pro:wght@200&family=Yellowtail&family=Ysabeau:wght@100&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto:ital,wght@1,300&family=Sono&family=Source+Serif+Pro:wght@200&family=Yellowtail&family=Ysabeau:wght@100&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
     <title>Huerta Zuculenta</title>
   </head>
+  <header id="header" class="headerbienvenida">
+    <br><br><br>
+    <div  class="bienvenida">
+      <h1>
+        <span class="resaltado">Bienvenidos a Huerta Zuculenta</span>
+      </h1>
+    </div>
+  </header>
   <body>
-    <header id="header" class="headerbienvenida">
-      <br><br><br>
-      <div  class="bienvenida">
-        <h1><span class="resaltado">Bienvenidos a Huerta Zuculenta</span></h1>
-      </div>
-    </header>
+
     <!--SECCION BARRA DE NAVEGACION-->
-  <section id="barra" class="barranav">
-    <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="quienessomos.html">¿Quienes somos?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="huerta.html">Huerta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tienda.html">Tienda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#scrollpycontacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </section>
+    <section id="barra" class="barranav">     
+      <nav class="navbar navbar-light bg-light">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="container-fluid">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">
+                    <h6 class="titulosnav">Inicio</h6>
+                  </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienessomos.html">
+                  <h6 class="titulosnav">¿Quienes somos?</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="huerta.html">
+                  <h6 class="titulosnav">Huerta</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tienda.html">
+                  <h6 class="titulosnav">Tienda</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollpycontacto">
+                  <h6 class="titulosnav">Contacto</h6>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="icon-container">
+            <a class="nav-link" href="">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAchJREFUWEftl4tNAzEQRCeVAJUAlQCVAJUQKgEqgU5ALzpLy8WfHQPihLB0SqT4vM+z4/Vmp42N3cZ49KeATiVdSzqXdCHpLTz3y3c7AbMKAfDUiQbco6Q7l2gGiCC3yUAoZUG5QGtlUIKge0mkkOdh+YSZ328kPSc3YJuaNAHFIMhlJVCBKvOAOvspoPewMEEIVhtAvSbnfnrfSRkninQwSBGp6I2oJkqm0uYARTNnzOrOP2zOAYqGbvknKoaaqMpATVQdDgco+gLvkIZf9RC7y5wyZ96RYo5CvLw+PbHO1OoQ76QN7Xqo7GZTlbpAYVauD1SpDbtCl0XclMXgrdv+xb2/4qJfARoe4ZkJM0AoQ01qpQuOUg74TFXomZRh5qsBSMtP6d4oo9D6qM9koqjWK6aHdUdArc6wdIQtuJNFydKClHnDTrIHVIPJXKq1kxg7zG5J6AHRzxTjTteVhY51uHbietWmrQUUex+7/DfyuPZitQNoAUV13DT1TB+vnWpr2wKKrerI+M6pW6t0dPHWgsV0ZRoxB2jdmhylbQSU6Z1doG5rWwOa6oUNKhuI+hP/e1l3UQKsu/53GjbBMp7yDzTSaHMKfQALPm4le7lCqAAAAABJRU5ErkJggg=="/>                
+            </a>
+            <a class="nav-link" href="tienda.html">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAd5JREFUWEftWNtRwzAQ3HQClQCVECoBKoFUAqkEOoFZxpdZnU46YytMmLG+Et/De3url3e4sLG7MDz4l4BeANwCuFrJ5ieAA4BXAPwdjoyhtwnMSixFOAE9LAFEVgjoHIOACKwaPYa+xPsZwJP8V5vm8EWojfGPUw627C5qXQuQD74WMNTShyRWGx/TZnqjTfWiNl/kT8oIkL6QPp7ePQAKneN9qlSpV935WC2UMR5wCEgTRi/UpFGVBEvQHJGAlaUqv2fIa6CqYBI6/SL2+CxjkB1g0dbWgkUPKO0xgJagrW09YZuPslyw1AMUseP1NcKHoj9NDA9I9RPpw4tyhE+XIf9C9pcBrMLbjH4Kl8DI3r0IWmdeL09RVDTtVUfRYjryWdGu1jrUYsKAkDFWbJtuBHCOD+OqlkcM+VWagWwHW3N0exCnONtE+1wfsmJT/teAwuV9Zc+6C2vG0AZoKUOk3bQTdbB3OhzesmwWKsBs4Rwiat3LMn1X64xbYIcDah3wehvw8JZluz1Z2wCZdv6kZf7Ex+1Ch90cbC+KhN3zuZG73ixRn/M+5sHzKsSN+DRalOtBPZvaS+3RBaL7sYFM2WF+6UtbcQRTMJOJcjSA2fmyjw2zE41y3ABlTH4Dwm+lJY0r+ikAAAAASUVORK5CYII="/>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <br><br><br>
 
     <!-- seccion CAROUSEL -->
 
@@ -115,7 +142,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/tiposdehuerta.jpeg" class="d-block w-100" alt="tipos de huerta">
+              <img src="../assets/tiposdehuerta.jpeg" class="d-block w-100" alt="tipos de huerta">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -171,7 +198,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/calendario.jpeg" class="d-block w-100" alt="calendario">
+              <img src="../assets/calendario.jpeg" class="d-block w-100" alt="calendario">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -183,7 +210,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="assets/02-febrero.jpg" class="d-block w-100" alt="febrero">
+              <img src="../assets/02-febrero.jpg" class="d-block w-100" alt="febrero">
               <div class="carousel-caption d-none d-md-block">
                 <h5>febrero</h5>
                 <p>Some representative placeholder content for the third slide.</p>
@@ -288,7 +315,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/aromaticas.jpeg" class="d-block w-100" alt="aromaticas">
+              <img src="../assets/aromaticas.jpeg" class="d-block w-100" alt="aromaticas">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -455,59 +482,84 @@
 <br><br><br>
   <!--SECCION FORMULARIO -->
   <footer id="footer" class="footerclass">
-    <section>
+    <section id="scrollpycontacto">
       <div class="container">
         <div class="row align-items-start">
           <div class="col">
             <div class="contacto">
-              <h4>Contacto</h4><br>
-
-              <a href="zulmacris1995@gmail.com">email de contacto</a><br>
-
-              <img src="https://i.pinimg.com/564x/63/f9/92/63f992a9f680110fae21ffc9bf1283b2.jpg" alt="logoig" class="logoig"><br><br>
-
-              <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank">Huerta Zuculenta</a>
-          </div>
-          </div>
-          </div>
-          <div class="col">
-            <div class="listfooter flex-column">
-              <ul>
-                <h4><img src="assets/logo.png" alt="logohuerta">
-                  Huerta Zuculenta</h4>
-                <li>
-                  <a href="quienessomos">¿Quienes somos?</a>
-                </li>
-                <li>
-                  <a href="huerta">Huerta</a>
-                </li>
-                <li>
-                  <a href="tienda">Tienda</a>
-                </li>
-                <li>
-                  <a href="#scrollpycontacto">Contacto</a>
-                </li>
-              </ul>
+              <h4 class="titcontacto">      <nav class="navbar navbar-light bg-light">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-fluid">
+                    <ul class="nav nav-pills">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">
+                            <h6 class="titulosnavfooter">Inicio</h6>
+                          </a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="quienessomos.html">
+                          <h6 class="titulosnavfooter">¿Quienes somos?</h6>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="huerta.html">
+                          <h6 class="titulosnavfooter">Huerta</h6>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">
+                          <h6 class="titulosnavfooter">Tienda</h6>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="icon-containerfooter">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollpycontacto">
+                          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank">
+                            <img src="../assets/logotipo-de-instagram.png" alt="Cartel redes">
+                          </a>
+                        </a>
+                      </li>
+                  </div>
+                  <div class="icon-containerfooter">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#scrollpycontacto">
+                        <a href="https://api.whatsapp.com/send?phone=1153749972" target="_blank">
+                          <img src="../assets/whatsapp.png" alt="Cartel redes">
+                        </a>
+                      </a>
+                    </li>
+                </div>
+                  <div class="icon-containerfooter">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#scrollpycontacto">
+                        <a href="" target="_blank">
+                          <img src="../assets/facebook.png" alt="Cartel redes">
+                        </a>
+                      </a>
+                    </li>
+                </div>
+                <div class="icon-containerfooter">
+                  <li class="nav-item">
+                    <a class="nav-link" href="tienda.html">
+                      <a href="tienda.html" target="_blank">
+                        <img src="../assets/carretilla.png" alt="Cartel redes">
+                      </a>
+                    </a>
+                  </li>
+              </div>
+            </div>
             </div>
           </div>
-          <div class="col">
-            <div class="form">
-              <h4 id="scrollspycomentario">Comentarios</h4>
-              <form action="" method="get">
-                  <label for="nombre">Nombre:</label>
-                  <input type="text" id="nombre" name="nombre"><br>
-                  <label for="email">Ingrese su email:</label>
-                  <input type="email" id="email" name="email"><br>
-                  <label for="telefono">ingresar tel:</label>
-                  <input type="number" id="telefono" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/><br>
-                  <textarea name="comentario" rows="5" cols="30"></textarea><br>
-                  <input type="submit" value="Enviar">
-              </form> 
-            </div>
-          </div>
+        </div>
       </div>
-    </section>
-  </footer>
+    </section><br>
+    <div>
+      <p>Derechos de autor© 2023.Todos los derechos reservados.</p>
+      <p>propiedad de huerta zuculenta</p>
+    </div>
+  </footer>  
     <script src="script.js/inner.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>   
 </body>
