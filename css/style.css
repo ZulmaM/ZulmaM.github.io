@@ -10,7 +10,7 @@
 /** ESTILOS HEADER**/
 .headerbienvenida{
   display: flex;
-  background-image:url(/assets/fondoheader.png);
+  background-image:url(../assets/fondoheader.png);
   height: 165px;
   flex-direction: column;
 }
@@ -61,44 +61,60 @@
 }
 
    /**estilos seccion FOOTER**/
-.footerclass {    
-  background-color: #f2edf0; 
-  width: 100%;;
-  height: 200px;
-}
-   /**estilos seccion lista del footer**/
-.listfooter{
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-.logoig{
-  width: 200px;
-  height: 200px;
-}
-.icon-containerfooter {
-  background-color: #f2edf0!important;
-  display: flex;
-  position: relative;
-  top: 0px; 
-  right:0px;
-  bottom:0px;
-  left: 120px;
-  list-style: none;
-}
-.icon-containerfooter img {
-  height: 33px;
-  width: 33px;
-}
-.icon-containerfooter a{
-  margin-right: 15px;
-}
-.titulosnavfooter{
-  text-align: center;
-  font-size: 25px;
-  padding: 0px 6px 0px 11px;
-  color: #3d062c;
-}
+   .footerclass {
+    background-color: #f2edf0;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .listfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-containerfooter {
+    background-color: #f2edf0!important;
+    display: flex;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 120px;
+    list-style: none;
+  }
+  
+  .icon-containerfooter img {
+    height: 33px;
+    width: 33px;
+  }
+  
+  .icon-containerfooter a {
+    margin-right: 15px;
+  }
+  
+  .titulosnavfooter {
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 6px 0px 11px;
+    color: #3d062c;
+  }
+  
+  .parrafofooter {
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 12px;
+  }
+  .imgfooter{
+    display: flex;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-left: 300px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+  }  
 
 
 
