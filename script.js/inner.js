@@ -110,7 +110,7 @@ element.innerHTML = '<header id="header" class="headerbienvenida">'+
   '<div class="icon-containerfooter">'+
   '<li class="nav-item">'+
   '<a class="nav-link" href="#scrollpycontacto">'+
-  '<a href="" target="_blank">'+
+  '<a href="https://www.facebook.com/" target="_blank">'+
   '<img src="../assets/facebook.png" alt="Cartel redes">'+
   '</a>'+
   '</a>'+

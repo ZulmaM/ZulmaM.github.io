@@ -113,9 +113,47 @@
     margin-left: 300px;
     width: fit-content;
     height: fit-content;
-    border-radius: 10px;
   }  
 
+   /**estilos seccion carousel index**/
+.carouselindex{
+  border: 10px solid #f2edf0;
+}
+.tituloindex{
+  border: 10px 0px 0px 0px solid #f2edf0;
+  text-align: center;
+  color: #3d062c;
+  background-color: #f2edf0;
+  margin: 0px 0px 0px 0px;
+}
+
+.tituloindex2{
+  text-align: center;
+  color: #3d062c;
+  background-color: #f2edf0;
+  margin: 0px 0px 0px 0px;
+  border: 10px solid #f2edf0;
+}
+.parrafoindex
+{
+  text-align: center;
+  text-indent: 20px;
+  background-color: #f2edf0;
+  margin: 0px 0px 0px 0px;
+  border: 0px solid #f2edf0;
+}
+
+.tituloindex3{
+  text-align: center;
+  color: #3d062c;
+  background-color: #f2edf0;
+  margin: 0px 0px 0px 0px;
+  text-indent: 00px; 
+  border: 10px solid #f2edf0;
+}
+.fondoindex{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbr8Sa9qUeJbvhQG4iLp75RV-2Z6YBRub3nQ&usqp=CAU);
+}
 
 
 
@@ -124,44 +162,9 @@
 
 
 
-   /**estilos seccion FORMULARIO**/
 
 
 
-
-
-
-
-
-
-
-
-
-
-/**estilos carousel inicio**/
-.carousel {
-    position: relative;
-    top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff !important;  
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  /**estilos imagenes carousel inicio**/
- .imgcar{
-    padding: 0px 0px 0px 0px;
-    border: 0px 0px 0px 0px;;
-    margin: 0px 0px 0px 0px;
-  }
-  /**estilos  carousel inner inicio**/
-.carousel-inner {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
   /**estilos seccion  QUIENES SOMOS**/
   .quienessomos{
     position: relative;
