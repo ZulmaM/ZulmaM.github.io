@@ -35,6 +35,10 @@ button{
   cursor: pointer;
   z-index: 3;
 }
+.menu-btn:hover {
+  box-shadow: 0 0 5px 2px #cfacc5; 
+}
+
 header.open .menu-btn {
 background-image: url(../assets/x.svg);
 }
@@ -119,184 +123,84 @@ header.open .backdrop{
   color: #540a3e;
 }
 
-/**estilos barra de navegacion**/
-.barranav{
-    display: flex;
+   /**estilos seccion FOOTER**/
+.footerclass {
+  position: relative;
+  top: 100px;
+  background-color: #f2edf0;
+  width: 100%;
+  height: 200px;
 }
-.navbar {  
-    width: 100%;
-    background-color: #f2edf0!important; 
-    height: 50px; 
+
+.listfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.titulosnav{
-  text-align: center;
-  padding: 0px 6px 0px 11px;
-  color: #3d062c;
-}
-/**estilos iconos de la barra de navegacion**/
-.icon-container {
+.icon-containerfooter {
   background-color: #f2edf0!important;
   display: flex;
-  position: relative;
-  top: 0px; 
-  right:0px;
-  bottom:0px;
-  left: 550px;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   list-style: none;
 }
-.icon-container img {
+
+.desplazamiento {
+  transform: translateX(-200px);
+}
+
+.icon-containerfooter li a {
+  text-decoration: none;
+}
+
+.icon-containerfooter li a:hover,
+.icon-containerfooter li a:active {
+  text-decoration: none;
+}
+
+.listfooter li h6 {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  text-decoration: none;
+  color: #3d062c;
+  font-size: 25px;
+}
+
+.icon-containerfooter img {
   height: 33px;
   width: 33px;
 }
-.icon-container a{
-  margin-right: 15px
+
+.icon-containerfooter a {
+  margin-right: 15px;
 }
 
-   /**estilos seccion FOOTER**/
-   .footerclass {
-    background-color: #f2edf0;
-    width: 100%;
-    height: 200px;
-  }
-  
-  .listfooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .icon-containerfooter {
-    background-color: #f2edf0!important;
-    display: flex;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 120px;
-    list-style: none;
-  }
-  
-  .icon-containerfooter img {
-    height: 33px;
-    width: 33px;
-  }
-  
-  .icon-containerfooter a {
-    margin-right: 15px;
-  }
-  
-  .titulosnavfooter {
-    text-align: center;
-    font-size: 25px;
-    padding: 0px 6px 0px 11px;
-    color: #3d062c;
-  }
-  
-  .parrafofooter {
-    text-align: center;
-    vertical-align: text-bottom;
-    font-size: 12px;
-  }
-  .imgfooter{
-    display: flex;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin-left: 300px;
-    width: fit-content;
-    height: fit-content;
-  }  
-
-   /**estilos seccion carousel index**/
-.carouselindex{
-  border: 10px solid #f2edf0;
-}
-.tituloindex{
-  border: 10px 0px 0px 0px solid #f2edf0;
+.titulosnavfooter {
   text-align: center;
-  color: #3d062c;
-  background-color: #f2edf0;
-  margin: 0px 0px 0px 0px;
-}
-
-.tituloindex2{
-  text-align: center;
-  color: #3d062c;
-  background-color: #f2edf0;
-  margin: 0px 0px 0px 0px;
-  border: 10px solid #f2edf0;
-}
-.parrafoindex
-{
-  text-align: center;
-  text-indent: 20px;
-  background-color: #f2edf0;
-  margin: 0px 0px 0px 0px;
-  border: 0px solid #f2edf0;
-}
-
-.tituloindex3{
-  text-align: center;
-  color: #3d062c;
-  background-color: #f2edf0;
-  margin: 0px 0px 0px 0px;
-  text-indent: 00px; 
-  border: 10px solid #f2edf0;
-}
-.sectiontienda{
-  background-color: #ecdde8;
-  padding-top: 20px;
-}
-.carrito{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin-bottom: 20px;
-}
-.carrito>img{
-  width: 320px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
-
-}
-.infotienda{
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  gap: 15px;
-
-.infotienda>p:first-child{
   font-size: 25px;
-  font-weight: 300;
+  padding: 0px 6px 0px 11px;
+  color: #3d062c;
 }
 
-.infotienda button{
-  background-color: aqua;
-  height: 10px;
-  width: 35px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
+.parrafofooter {
+  text-align: center;
+  vertical-align: text-bottom;
+  font-size: 12px;
 }
-}
-.imgtienda{
-  filter: invert(100%);
-  width: 45%;
-  height: auto;
-}
-
-.carrito>div{
-  box-shadow: 0px 0px 5px 0px rgb(89, 14, 69);
-  background-color: #cfacc5;
-  border-radius: 20px;
-}
-.carrito>div:hover{
-  background-color: #3d062c;
-}
+.imgfooter{
+  display: flex;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-left: 200px;
+  width: fit-content;
+  height: fit-content;
+}  
 
 
 

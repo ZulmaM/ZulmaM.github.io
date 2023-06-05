@@ -1,6 +1,7 @@
 /* llamamos al header mediante id "header"*/
-var element = document.getElementById("header");
-element.innerHTML = '<header id="header" class="headerbienvenida">'+
+var element = document.getElementById("header1");
+element.innerHTML = ' <section id="header1">'+
+'<header id="header" class="headerbienvenida">'+
 '<button class="menu-btn"></button>'+
 '<div class="backdrop"></div>'+
 '<div class="menu">'+
@@ -17,94 +18,83 @@ element.innerHTML = '<header id="header" class="headerbienvenida">'+
 '<span class="resaltado">Bienvenidos a Huerta Zuculenta</span>'+
 '</h1>'+
 '</div>'+
-'</header>';
+'</header>'+
+'</section>';
   
   /* llamamos al header mediante id "footer"*/
   var element = document.getElementById("footer");
   element.innerHTML = '<footer id="footer" class="footerclass">'+
   '<section id="scrollpycontacto">'+
-  '<div class="container">'+
-  '<div class="row align-items-start">'+
-  '<div class="col">'+
-  '<div class="contacto">'+
-  '<h4 class="titcontacto">'+
-  '<nav class="navbar navbar-light bg-light">'+
   '<div class="d-flex justify-content-between align-items-center">'+
   '<div class="container-fluid">'+
-  '<ul class="nav nav-pills">'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="index.html">'+
+  '<ul class="icon-containerfooter">'+
+  '<li class="listfooter">'+
+  '<a href="index.html">'+
   '<h6 class="titulosnavfooter">Inicio</h6>'+
   '</a>'+
   '</li>'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="quienessomos.html">'+
+  '<li class="listfooter">'+
+  '<a href="quienessomos.html">'+
   '<h6 class="titulosnavfooter">¿Quienes somos?</h6>'+
   '</a>'+
   '</li>'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="huerta.html">'+
+  '<li class="listfooter">'+
+  '<a href="huerta.html">'+
   '<h6 class="titulosnavfooter">Huerta</h6>'+
   '</a>'+
   '</li>'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="tienda.html">'+
+  '<li class="listfooter">'+
+  '<a href="tienda.html">'+
   '<h6 class="titulosnavfooter">Tienda</h6>'+
   '</a>'+
   '</li>'+
   '</ul>'+
   '</div>'+
-  '<div class="icon-containerfooter">'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="#scrollpycontacto">'+
+  '<div class="icon-containerfooter desplazamiento">'+
+  '<li>'+
+  '<a href="#scrollpycontacto">'+
   '<a href="https://www.instagram.com/huerta_zuculenta/" target="_blank">'+
-  '<img src="../assets/logotipo-de-instagram.png" alt="Cartel redes">'+
+  '<img src="../assets/logotipo-de-instagram.png" alt="logo instagram">'+
   '</a>'+
   '</a>'+
   '</li>'+
   '</div>'+
-  '<div class="icon-containerfooter">'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="#scrollpycontacto">'+
+  '<div class="icon-containerfooter desplazamiento">'+
+  '<li>'+
+  '<a href="#scrollpycontacto">'+
   '<a href="https://api.whatsapp.com/send?phone=1153749972" target="_blank">'+
-  '<img src="../assets/whatsapp.png" alt="Cartel redes">'+
+  '<img src="../assets/whatsapp.png" alt="logo whatsapp">'+
   '</a>'+
   '</a>'+
   '</li>'+
   '</div>'+
-  '<div class="icon-containerfooter">'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="#scrollpycontacto">'+
+  '<div class="icon-containerfooter desplazamiento">'+
+  '<li>'+
+  '<a href="#scrollpycontacto">'+
   '<a href="https://www.facebook.com/" target="_blank">'+
-  '<img src="../assets/facebook.png" alt="Cartel redes">'+
+  '<img src="../assets/facebook.png" alt="logo facebook">'+
   '</a>'+
   '</a>'+
   '</li>'+
   '</div>'+
-  '<div class="icon-containerfooter">'+
-  '<li class="nav-item">'+
-  '<a class="nav-link" href="tienda.html">'+
-  '<a href="tienda.html" target="_blank">'+
-  '<img src="../assets/carretilla.png" alt="Cartel redes">'+
+  '<div class="icon-containerfooter desplazamiento">'+
+  '<li>'+
+  '<a href="tienda.html">'+
+  '<a href="/tienda.html" target="_blank">'+
+  '<img src="../assets/carretilla.png" alt="logo Carrito de compras">'+
   '</a>'+
   '</a>'+
   '</li>'+
-  '</div>'+
-  '</div>'+
-  '</nav>'+
-  '</h4>'+
-  '</div>'+
-  '</div>'+
   '</div>'+
   '</div>'+
   '</section>'+
   '<div class="row align-items-center">'+
   '<div class="col">'+
-  '<img class="imgfooter" src="../assets/1CartelRedes.jpg" alt="">'+
+  '<img class="imgfooter" src="../assets/1CartelRedes.jpg" alt="logo huerta zuculenta">'+
   '</div>'+
   '<div class="col">'+
-  '<p class="parrafofooter">Derechos de autor© 2023. Todos los derechos reservados.</p>'+
-  '<p class="parrafofooter">Propiedad de huerta zuculenta</p>'+
+  '<p class="parrafofooter">Proyecto final B.A. Multiplica 2.0. Clase 59</p>'+
+  '<p class="parrafofooter">Realizado por Marcos Zulma</p>'+
   '</div>'+
   '</div>'+
   '</footer>';
