@@ -8,12 +8,104 @@
 }
 /** ESTILOS SECCIONES CONECTADAS POR**/
 /** ESTILOS HEADER**/
-.headerbienvenida{
-  display: flex;
+
+header {
   background-image:url(../assets/fondoheader.png);
   height: 165px;
-  flex-direction: column;
+  background-size: cover;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
 }
+
+button{
+  border: 0;
+  outline: none;
+  background: none;
+}
+
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../assets/menu.svg);
+  background-size: cover;
+  cursor: pointer;
+  z-index: 3;
+}
+header.open .menu-btn {
+background-image: url(../assets/x.svg);
+}
+
+.menu {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+}
+.menu nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  visibility: hidden;
+}
+
+header.open .menu nav {
+  visibility: visible;
+}
+
+.menu nav a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  opacity: 1;
+  transition: 0.25s;
+}
+header.open .menu a {
+  animation: show 0.3s backwards;
+}
+.menu nav:hover a:not(:hover){
+  opacity: 0.5;
+}
+
+@keyframes show {
+0%{
+  opacity: 0;
+  translate: 0 -30px;
+  }
+100% {
+  opacity: 1;
+  translate: 0 0;
+  }
+}
+.backdrop {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 100vh;
+  aspect-ratio: 1 / 1;
+  translate: -50% -50%;
+  scale: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 0.6s;
+}
+
+header.open .backdrop{
+  opacity: 1;
+  scale: 5;
+}
+
 /** ESTILOS h1 header**/
 .bienvenida{
   text-align: center;
@@ -151,64 +243,64 @@
   text-indent: 00px; 
   border: 10px solid #f2edf0;
 }
-.fondoindex{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbr8Sa9qUeJbvhQG4iLp75RV-2Z6YBRub3nQ&usqp=CAU);
+.sectiontienda{
+  background-color: #ecdde8;
+  padding-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-  /**estilos seccion  QUIENES SOMOS**/
-  .quienessomos{
-    position: relative;
-    background-color:fffff;
-  }
-   /**estilos seccion HUERTA**/
-  .huerta{
-    position: relative;
-    top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }   
-.container {
+.carrito{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
 }
-  
-.carouselh {
-  width: 33.33%;
+.carrito>img{
+  width: 320px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+
 }
- /**estilos PARRAFO PRINCIPAL**/
-.parrafoprincipal {
-    text-indent: 1em;
-    margin: 0 10%;
-    text-align: justify;
-    font-size: 18px;
-  }
-   /**estilos IMAGEN QUIENES SOMOS**/
-  .portada {
-    width: 75%;
-    height: auto;
-    display: block;
-    margin: auto;
-    top: 50px;
-  }
- /**estilos TITULO DE LAS SECCIONES**/
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    color: #1c4e1b;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #cfacc5!important;
+.infotienda{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+
+.infotienda>p:first-child{
+  font-size: 25px;
+  font-weight: 300;
 }
 
-  
+.infotienda button{
+  background-color: aqua;
+  height: 10px;
+  width: 35px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+}
+.imgtienda{
+  filter: invert(100%);
+  width: 45%;
+  height: auto;
+}
+
+.carrito>div{
+  box-shadow: 0px 0px 5px 0px rgb(89, 14, 69);
+  background-color: #cfacc5;
+  border-radius: 20px;
+}
+.carrito>div:hover{
+  background-color: #3d062c;
+}
+
+
+
+
+
+
+ 
