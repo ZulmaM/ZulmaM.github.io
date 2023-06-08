@@ -27,12 +27,9 @@ element.innerHTML = '<section id="navbar" class="barranav">'+
 '        <li class="nav-item">'+
 '          <a class="nav-link active" href="tienda.html">Tienda</a>'+
 '        </li>'+
-'        <li class="nav-item dropdown">'+
-'          <a class="nav-link dropdown-toggle active" href="mas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Mas</a>'+
-'          <ul class="dropdown-menu">'+
-'            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>'+
-'          </ul>'+
-'        </li>'+
+'          <li class="nav-item">'+
+'          <a class="nav-link active" href="contacto.html">Contacto</a>'+
+'          </li>'+
 '      </ul>'+
 '      <div class="d-flex search-form">'+
 '        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">'+

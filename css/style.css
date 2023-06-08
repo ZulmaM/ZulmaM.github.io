@@ -38,7 +38,8 @@
 
 }
 
-   /**estilos seccion FOOTER**/
+/* Estilos sección FOOTER */
+
 .footerclass {
   position: relative;
   top: 20px;
@@ -48,10 +49,11 @@
 }
 
 .listfooter {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
+
 .icon-containerfooter {
   background-color: #f2edf0!important;
   display: flex;
@@ -102,11 +104,13 @@
 }
 
 .parrafofooter {
+  position: relative;
   text-align: center;
   vertical-align: text-bottom;
   font-size: 12px;
 }
-.imgfooter{
+
+.imgfooter {
   display: flex;
   position: relative;
   top: 0px;
@@ -115,7 +119,56 @@
   margin-left: 200px;
   width: fit-content;
   height: fit-content;
-}  
+}
+
+/* Media queries para hacer la sección footer responsive */
+
+/* Corte de interrupción 1: Hasta 320px */
+@media only screen and (max-width: 320px) {
+  .imgfooter {
+    margin-left: 0;
+  }
+  .footerclass {
+    height: 250px;
+  }
+  .desplazamiento {
+    transform: translateX(0);
+  }
+}
+
+/* Corte de interrupción 2: Entre 320px y 600px */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .imgfooter {
+    margin-left: 0;
+  }
+  .footerclass {
+    height: 250px;
+  }
+  .desplazamiento {
+    transform: translateX(0);
+  }
+}
+
+/* Corte de interrupción 3: Entre 600px y 720px */
+@media only screen and (min-width: 600px) and (max-width: 720px) {
+  .footerclass {
+    height: 250px;
+  }
+  .desplazamiento {
+    transform: translateX(0);
+  }
+}
+
+/* Corte de interrupción 4: A partir de 720px */
+@media only screen and (min-width: 720px) {
+  .footerclass {
+    height: 250px;
+  }
+  .desplazamiento {
+    transform: translateX(-200px);
+  }
+}
+
 
 
 
