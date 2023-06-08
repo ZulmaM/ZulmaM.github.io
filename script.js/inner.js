@@ -74,22 +74,22 @@ element.innerHTML = '<section id="navbar" class="barranav">'+
 '        </div>'+
 '        <div class="icon-containerfooter desplazamiento">'+
 '          <a href="https://www.instagram.com/huerta_zuculenta/" target="_blank">'+
-'            <img src="../assets/logotipo-de-instagram.png" alt="logo instagram">'+
+'            <img src="../media/logotipo-de-instagram.png" alt="logo instagram">'+
 '          </a>'+
 '        </div>'+
 '        <div class="icon-containerfooter desplazamiento">'+
 '          <a href="https://api.whatsapp.com/send?phone=1153749972" target="_blank">'+
-'            <img src="../assets/whatsapp.png" alt="logo whatsapp">'+
+'            <img src="../media/whatsapp.png" alt="logo whatsapp">'+
 '          </a>'+
 '        </div>'+
 '        <div class="icon-containerfooter desplazamiento">'+
 '          <a href="https://www.facebook.com/" target="_blank">'+
-'            <img src="../assets/facebook.png" alt="logo facebook">'+
+'            <img src="../media/facebook.png" alt="logo facebook">'+
 '          </a>'+
 '        </div>'+
 '        <div class="icon-containerfooter desplazamiento">'+
 '          <a href="tienda.html" target="_blank">'+
-'            <img src="../assets/carretilla.png" alt="logo Carrito de compras">'+
+'            <img src="../media/carretilla.png" alt="logo Carrito de compras">'+
 '          </a>'+
 '        </div>'+
 '      </div>'+
@@ -97,7 +97,7 @@ element.innerHTML = '<section id="navbar" class="barranav">'+
 '    <div class="row align-items-center">'+
 '    <a href="tienda.html">'+
 '    <div class="col">'+
-'    <img class="imgfooter" src="../assets/1CartelRedes.jpg" alt="logo huerta zuculenta">'+
+'    <img class="imgfooter" src="../media/1CartelRedes.jpg" alt="logo huerta zuculenta">'+
 '    </div>'+
 '    </a>'+
 '      <div class="col">'+

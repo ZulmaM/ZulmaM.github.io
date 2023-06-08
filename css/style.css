@@ -9,7 +9,7 @@
 /** ESTILOS SECCIONES CONECTADAS POR**/
 /** ESTILOS HEADER**/
  header {
-  background-image:url(../assets/fondoheader.png);
+  background-image:url(../media/fondoheader.png);
   height: 150px;
   background-size: cover;
   display: grid;

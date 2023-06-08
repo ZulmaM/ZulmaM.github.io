@@ -1,4 +1,3 @@
-/*FORMULARIO CON LA UL Y LAS LI*/
 form, form ul {
     display: flex;
     flex-direction: column;
@@ -56,7 +55,7 @@ span {
 }
 
 .formulario{
-    background-image: url(../assets/fondoflores.jpg);
+    background-image: url(../media/fondoflores.jpg);
     background: size 100%;;
     background-repeat: repeat;
 }
