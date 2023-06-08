@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .tituloindex{
   position: relative;
   top: 20px;
@@ -41,6 +45,10 @@
 
 .imgindex{
     position: relative;
-    top: 50px;
-    left: 50px;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+
 }

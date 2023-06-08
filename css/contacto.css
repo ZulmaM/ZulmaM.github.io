@@ -1,0 +1,62 @@
+/*FORMULARIO CON LA UL Y LAS LI*/
+form, form ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 0px;
+    gap: 28px;
+}
+form ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+form li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:12px
+}
+    
+.input {
+    width: 400px;
+    background-color: #ffffff;
+}
+    
+.checkbox {
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+}
+    
+textarea {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+}
+    
+fieldset {
+    border: 4px solid #540a3e;
+    background:#ffffff;
+}
+
+span { 
+    color: #ffffff;
+}
+.enviarform{
+    background-color: #ffffff;
+    height: 50px;
+    width: 250px;
+}
+.enviarform:hover {
+    color: #540a3e;
+}
+
+.formulario{
+    background-image: url(../assets/fondoflores.jpg);
+    background: size 100%;;
+    background-repeat: repeat;
+}
