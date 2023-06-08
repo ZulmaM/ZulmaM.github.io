@@ -8,108 +8,13 @@
 }
 /** ESTILOS SECCIONES CONECTADAS POR**/
 /** ESTILOS HEADER**/
-
-header {
+ header {
   background-image:url(../assets/fondoheader.png);
-  height: 165px;
+  height: 150px;
   background-size: cover;
-  overflow: hidden;
   display: grid;
   place-items: center;
 }
-
-button{
-  border: 0;
-  outline: none;
-  background: none;
-}
-
-.menu-btn {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 40px;
-  height: 40px;
-  background-image: url(../assets/lista.png);
-  background-size: cover;
-  cursor: pointer;
-  z-index: 3;
-}
-.menu-btn:hover {
-  box-shadow: 0 0 5px 2px #cfacc5; 
-}
-
-header.open .menu-btn {
-background-image: url(../assets/eliminar.png);
-}
-
-.menu {
-  position: fixed;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  z-index: 2;
-}
-.menu nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  visibility: hidden;
-}
-
-header.open .menu nav {
-  visibility: visible;
-}
-
-.menu nav a {
-  text-decoration: none;
-  font-size: 28px;
-  font-weight: 700;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  opacity: 1;
-  transition: 0.25s;
-}
-header.open .menu a {
-  animation: show 0.3s backwards;
-}
-.menu nav:hover a:not(:hover){
-  opacity: 0.5;
-}
-
-@keyframes show {
-0%{
-  opacity: 0;
-  translate: 0 -30px;
-  }
-100% {
-  opacity: 1;
-  translate: 0 0;
-  }
-}
-.backdrop {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  height: 100vh;
-  aspect-ratio: 1 / 1;
-  translate: -50% -50%;
-  scale: 0;
-  opacity: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 50%;
-  z-index: 1;
-  transition: all 0.6s;
-}
-
-header.open .backdrop{
-  opacity: 1;
-  scale: 5;
-}
-
 /** ESTILOS h1 header**/
 .bienvenida{
   text-align: center;
@@ -121,6 +26,13 @@ header.open .backdrop{
 .resaltado{
   background-color: #fae6f4;
   color: #540a3e;
+}
+
+   /**estilos seccion NAVBAR**/
+
+.barranav{
+  background-color: #f2edf0 !important;
+
 }
 
    /**estilos seccion FOOTER**/

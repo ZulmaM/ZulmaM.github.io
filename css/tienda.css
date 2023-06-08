@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .container .row {
+    flex-grow: 1;
+  }
+  
+  aside {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    flex-basis: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  aside .icon-carrito {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #carrito {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  #items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
