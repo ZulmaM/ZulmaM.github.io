@@ -1,7 +1,7 @@
 /* llamamos al header mediante id "header"*/
 var element = document.getElementById("header");
 element.innerHTML = '<header id="header" class="headerbienvenida">'+  
-'<a href="index.html" class="linkheader">'+  
+'<a href="pages/index.html" class="linkheader">'+  
 '  <div class="bienvenida">'+  
 '    <h1>'+  
 '      <span class="resaltado">Bienvenidos a Huerta Zuculenta</span>'+  
