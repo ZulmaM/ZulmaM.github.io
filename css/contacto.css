@@ -53,9 +53,3 @@ span {
 .enviarform:hover {
     color: #540a3e;
 }
-
-.formulario{
-    background-image: url(../media/fondoflores.jpg);
-    background: size 100%;;
-    background-repeat: repeat;
-}
