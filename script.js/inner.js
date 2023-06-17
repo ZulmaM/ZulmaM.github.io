@@ -52,7 +52,7 @@ navbarElement.innerHTML = '<section id="navbar1" class="barranav">' +
 '        <div class="container-fluid">'+
 '          <ul class="icon-containerfooter">'+
 '            <li class="listfooter">'+
-'              <a href="index.html">'+
+'              <a href="/index.html">'+
 '                <h6 class="titulosnavfooter">Inicio</h6>'+
 '              </a>'+
 '            </li>'+
