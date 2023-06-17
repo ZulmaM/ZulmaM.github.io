@@ -2,13 +2,11 @@
 /* llamamos al header mediante id "header" */
 var headerElement = document.getElementById("header");
 headerElement.innerHTML = '<header id="header" class="headerbienvenida">'+
-    '<a href="index.html" class="linkheader">'+
     '  <div class="bienvenida">'+
     '    <h1>'+
     '      <span class="resaltado">Bienvenidos a Huerta Zuculenta</span>'+
     '    </h1>'+
     '  </div>'+
-    '</a>'+
     '</header>';
 
 /* llamamos al navbar mediante id "navbar1" */
