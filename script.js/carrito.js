@@ -25,6 +25,22 @@ function agregarProducto(evento) {
   actualizarCarritoHTML();
 }
 
+// Función para eliminar un producto del carrito
+function eliminarProducto(evento) {
+  const botonEliminar = evento.target;
+  const itemId = botonEliminar.dataset.id;
+
+  // Buscar el índice del producto en el carrito
+  const indice = carrito.findIndex(producto => producto.id === itemId);
+
+  // Si se encuentra el producto, eliminarlo del carrito
+  if (indice !== -1) {
+    carrito.splice(indice, 1);
+    calcularTotal();
+    actualizarCarritoHTML();
+  }
+}
+
 // Función para calcular el total del carrito
 function calcularTotal() {
   let totalCarrito = 0;
@@ -42,6 +58,14 @@ function actualizarCarritoHTML() {
     const productoElemento = document.createElement('li');
     productoElemento.classList.add('list-group-item');
     productoElemento.textContent = `${carrito[i].nombre} - $${carrito[i].precio}`;
+
+    const botonEliminar = document.createElement('button');
+    botonEliminar.classList.add('btn', 'btn-danger', 'btn-sm', 'float-right', 'delete-button');
+    botonEliminar.dataset.id = carrito[i].id;
+    botonEliminar.innerHTML = '<i class="fas fa-trash"></i>';
+    botonEliminar.addEventListener('click', eliminarProducto);
+
+    productoElemento.appendChild(botonEliminar);
     carritoElemento.appendChild(productoElemento);
   }
 }
@@ -60,10 +84,17 @@ items.addEventListener('click', function(evento) {
   }
 });
 
-// Evento para vaciar el carrito al hacer clic en el botón "Vaciar"
+// Agregar evento de clic al botón de vaciar carrito
 botonVaciar.addEventListener('click', vaciarCarrito);
 
-// Llamar a la función para actualizar el carrito inicialmente
-calcularTotal();
-actualizarCarritoHTML();
+// Esperar a que se cargue el contenido HTML completamente
+document.addEventListener('DOMContentLoaded', function() {
+  // Obtener el botón de eliminar
+  var deleteButtons = document.querySelectorAll('.delete-button');
+
+  // Agregar un evento de clic a cada botón de eliminar
+  deleteButtons.forEach(function(button) {
+    button.addEventListener('click', eliminarProducto);
+  });
+});
 
