@@ -1,46 +1,47 @@
-/* llamamos al header mediante id "header"*/
-var element = document.getElementById("header");
-element.innerHTML = '<header id="header" class="headerbienvenida">'+  
-'<a href="pages/index.html" class="linkheader">'+  
-'  <div class="bienvenida">'+  
-'    <h1>'+  
-'      <span class="resaltado">Bienvenidos a Huerta Zuculenta</span>'+  
-'    </h1>'+  
-'  </div>'+  
-'</a>'+  
-'</header>';
-  
-/* llamamos al header mediante id "navbar"*/
-var element = document.getElementById("navbar");
-element.innerHTML = '<section id="navbar" class="barranav">'+      
-'<nav class="navbar navbar-expand-lg ">'+
-'  <div class="container-fluid">'+
-'    <a class="navbar-brand" href="index.html">Inicio</a>'+
-'    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">'+
-'      <span class="navbar-toggler-icon"></span>'+
-'    </button>'+
-'    <div class="collapse navbar-collapse" id="navbarSupportedContent">'+
-'      <ul class="navbar-nav me-auto mb-2 mb-lg-0">'+
-'        <li class="nav-item">'+
-'          <a class="nav-link active" aria-current="page" href="quienessomos.html">¿Quienes somos?</a>'+
-'        </li>'+
-'        <li class="nav-item">'+
-'          <a class="nav-link active" href="tienda.html">Tienda</a>'+
-'        </li>'+
-'          <li class="nav-item">'+
-'          <a class="nav-link active" href="contacto.html">Contacto</a>'+
-'          </li>'+
-'      </ul>'+
-'      <div class="d-flex search-form">'+
-'        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">'+
-'        <button class="btn btn-outline-success" type="submit">'+
-'          <i class="fas fa-search"></i>'+
-'        </button>'+
-'      </div>'+
-'    </div>'+
-'  </div>'+
-'</nav>'+
-'</section>';
+
+/* llamamos al header mediante id "header" */
+var headerElement = document.getElementById("header");
+headerElement.innerHTML = '<header id="header" class="headerbienvenida">' +
+    '<a href="index.html" class="linkheader">' +
+    '  <div class="bienvenida">' +
+    '    <h1>' +
+    '      <span class="resaltado">Bienvenidos a Huerta Zuculenta</span>' +
+    '    </h1>' +
+    '  </div>' +
+    '</a>' +
+    '</header>';
+
+/* llamamos al navbar mediante id "navbar1" */
+var navbarElement = document.getElementById("navbar1");
+navbarElement.innerHTML = '<section id="navbar1" class="barranav">' +
+    '<nav class="navbar navbar-expand-lg ">' +
+    '  <div class="container-fluid">' +
+    '    <a class="navbar-brand" href="index.html">Inicio</a>' +
+    '    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">' +
+    '      <span class="navbar-toggler-icon"></span>' +
+    '    </button>' +
+    '    <div class="collapse navbar-collapse" id="navbarSupportedContent">' +
+    '      <ul class="navbar-nav me-auto mb-2 mb-lg-0">' +
+    '        <li class="nav-item">' +
+    '          <a class="nav-link active" aria-current="page" href="../pages/quienessomos.html">¿Quienes somos?</a>' +
+    '        </li>' +
+    '        <li class="nav-item">' +
+    '          <a class="nav-link active" href="../pages/tienda.html">Tienda</a>' +
+    '        </li>' +
+    '          <li class="nav-item">' +
+    '          <a class="nav-link active" href="../pages/contacto.html">Contacto</a>' +
+    '          </li>' +
+    '      </ul>' +
+    '      <div class="d-flex search-form">' +
+    '        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">' +
+    '        <button class="btn btn-outline-success" type="submit">' +
+    '          <i class="fas fa-search"></i>' +
+    '        </button>' +
+    '      </div>' +
+    '    </div>' +
+    '  </div>' +
+    '</nav>' +
+    '</section>';
 
 
   /* llamamos al header mediante id "footer"*/
